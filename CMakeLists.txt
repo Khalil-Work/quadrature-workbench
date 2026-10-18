@@ -27,3 +27,11 @@ endif()
 
 enable_testing()
 add_test(NAME quadrature_checks COMMAND test_quadrature)
+
+add_executable(qw_bench src/bench.cpp)
+target_link_libraries(qw_bench PRIVATE qw)
+if(MSVC)
+    target_compile_options(qw_bench PRIVATE /W4)
+else()
+    target_compile_options(qw_bench PRIVATE -Wall -Wextra -Wpedantic)
+endif()
