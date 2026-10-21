@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" alt="Quadrature Workbench banner: adaptive mesh concentrating under the Runge curve with weight bars" width="100%">
+<img src="docs/banner.png" alt="Quadrature Workbench banner: adaptive mesh concentrating under the Runge curve with weight bars" width="100%">
 
 # 📐 Quadrature Workbench
 
@@ -69,9 +69,9 @@ Details: [docs/model.md](docs/model.md) · API: [docs/api.md](docs/api.md).
 ```mermaid
 flowchart TD
     A[interval a, b] --> B[S1 = Simpson a,b<br/>S2 = Simpson a,m + Simpson m,b]
-    B --> C{|S2−S1|/15 ≤<br/>atol + rtol·|S2| ?}
+    B --> C{"|S2−S1|/15 ≤<br/>atol + rtol·|S2| ?"}
     C -- yes --> D[✅ accept S2,<br/>record estimate]
-    C -- no --> E{budget or depth<br/>exhausted?}
+    C -- no --> E{"budget or depth<br/>exhausted?"}
     E -- yes --> F[🛑 partial value +<br/>BUDGET_EXHAUSTED / MAX_DEPTH]
     E -- no --> G[recurse on a,m and m,b]
     G --> B
