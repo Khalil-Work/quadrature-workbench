@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Quadrature Workbench banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d2b18"/>
+      <stop offset="1" stop-color="#05130b"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ed491"/>
+      <stop offset="1" stop-color="#7ed491" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <!-- Runge curve + adaptive nodes on LEFT, wordmark RIGHT -->
+  <g transform="translate(70,40)">
+    <!-- axis -->
+    <line x1="0" y1="180" x2="540" y2="180" stroke="#5b8a6d" stroke-width="2"/>
+    <!-- Runge curve -->
+    <path d="M 0 60 C 90 55, 150 60, 210 95 C 260 125, 280 160, 300 168 C 320 176, 340 176, 360 168 C 380 160, 400 125, 450 95 C 500 68, 520 60, 540 58" stroke="#a4d4a0" stroke-width="3" fill="none" opacity="0.9"/>
+    <!-- adaptive nodes: dense near center (steep), sparse outside; bars = weights -->
+    <g fill="url(#node)" stroke="#7ed491" stroke-width="1">
+      <rect x="10" y="176" width="60" height="4"/><rect x="76" y="176" width="56" height="4"/>
+      <rect x="138" y="176" width="46" height="4"/><rect x="190" y="176" width="34" height="5"/>
+      <rect x="230" y="176" width="24" height="6"/><rect x="260" y="176" width="16" height="8"/>
+      <rect x="282" y="176" width="10" height="10"/><rect x="298" y="176" width="7" height="12"/>
+      <rect x="311" y="176" width="5" height="14"/><rect x="322" y="176" width="4" height="14"/>
+      <rect x="332" y="176" width="5" height="12"/><rect x="344" y="176" width="7" height="10"/>
+      <rect x="357" y="176" width="10" height="8"/><rect x="373" y="176" width="16" height="6"/>
+      <rect x="395" y="176" width="24" height="5"/><rect x="425" y="176" width="34" height="4"/>
+      <rect x="465" y="176" width="46" height="4"/><rect x="517" y="176" width="20" height="4"/>
+    </g>
+    <text x="300" y="215" fill="#7ed491" font-family="Consolas, monospace" font-size="15" text-anchor="middle">mesh concentrates where |S2−S1| is large</text>
+    <text x="300" y="243" fill="#5b8a6d" font-family="Consolas, monospace" font-size="14" text-anchor="middle">f(x) = 1/(1+25x²) — adaptive Simpson, Richardson |S2−S1|/15</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="680" y="115" fill="#ffffff" font-size="50" font-weight="800" letter-spacing="0.5">Quadrature <tspan fill="#7ed491">Workbench</tspan></text>
+    <text x="682" y="158" fill="#b8d8c2" font-size="21">adaptive Simpson · honest statuses · bounded benchmarks</text>
+    <text x="682" y="196" fill="#5b8a6d" font-family="Consolas, monospace" font-size="15">C++17 · dependency-free · 51-row regression-guarded output</text>
+  </g>
+</svg>
