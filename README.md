@@ -12,13 +12,13 @@ pinned to cubic exactness (< 1e-14), and a bounded benchmark whose 51-row output
 enforced by a regression that exists because a runaway loop once wrote a 25.5 GB
 CSV.**
 
-[![tests](https://github.com/khalil-official/quadrature-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-official/quadrature-workbench/actions/workflows/ci.yml)
+[![tests](https://github.com/khalil-work/quadrature-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-work/quadrature-workbench/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![standard](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](CMakeLists.txt)
 [![deps](https://img.shields.io/badge/dependencies-zero-9cf.svg)](src)
 [![output](https://img.shields.io/badge/benchmark%20output-51%20rows%20%2F%202.4%20KB-orange.svg)](tests/test_bench_regression.py)
-[![repo stars](https://img.shields.io/github/stars/khalil-official/quadrature-workbench?style=flat&color=yellow)](https://github.com/khalil-official/quadrature-workbench/stargazers)
-[![last commit](https://img.shields.io/github/last-commit/khalil-official/quadrature-workbench?color=9cf)](https://github.com/khalil-official/quadrature-workbench/commits)
+[![repo stars](https://img.shields.io/github/stars/khalil-work/quadrature-workbench?style=flat&color=yellow)](https://github.com/khalil-work/quadrature-workbench/stargazers)
+[![last commit](https://img.shields.io/github/last-commit/khalil-work/quadrature-workbench?color=9cf)](https://github.com/khalil-work/quadrature-workbench/commits)
 
 [Quick start](#-quick-start) · [Method](#-model-method-and-guarantees) · [Animation](#%EF%B8%8F-results-gallery) · [The 25.5 GB lesson](#%EF%B8%8F-the-255-gb-lesson) · [References](#-references)
 
