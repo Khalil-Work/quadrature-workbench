@@ -20,7 +20,7 @@ CSV.**
 [![repo stars](https://img.shields.io/github/stars/khalil-work/quadrature-workbench?style=flat&color=yellow)](https://github.com/khalil-work/quadrature-workbench/stargazers)
 [![last commit](https://img.shields.io/github/last-commit/khalil-work/quadrature-workbench?color=9cf)](https://github.com/khalil-work/quadrature-workbench/commits)
 
-[Quick start](#-quick-start) · [Method](#-model-method-and-guarantees) · [Animation](#%EF%B8%8F-results-gallery) · [The 25.5 GB lesson](#%EF%B8%8F-the-255-gb-lesson) · [References](#-references)
+[Homepage](https://khalil-work.github.io) · [Quick start](#-quick-start) · [Method](#-model-method-and-guarantees) · [Animation](#%EF%B8%8F-results-gallery) · [The 25.5 GB lesson](#%EF%B8%8F-the-255-gb-lesson) · [References](#-references)
 
 </div>
 
